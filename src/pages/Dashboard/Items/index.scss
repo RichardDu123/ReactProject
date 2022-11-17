@@ -1,0 +1,33 @@
+.dashboard_items{
+    &_header{
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    &_modal{
+        position: absolutte;
+        margin: auto;
+        margin-top: 400px;
+        border: 2px solid aliceblue;
+        border-radius: 10px;
+        background-color: aliceblue;
+        transition: 2s;
+        box-shadow: 0 4px 8px 0 rgb(107, 107, 107), 0 6px 20px 0 rgb(242, 247, 251);
+        text-align: center;
+        width: 300px;
+        height: 130px
+    }
+    &_modal-dark{
+        position: absolutte;
+        margin: auto;
+        margin-top: 400px;
+        border: 2px solid rgb(70, 73, 75);
+        border-radius: 10px;
+        background-color: rgb(70, 73, 75);
+        transition: 2s;
+        box-shadow: 0 4px 8px 0 rgb(202, 202, 202), 0 6px 20px 0 rgb(101, 105, 107);
+        text-align: center;
+        width: 300px;
+        height: 130px
+    }
+}

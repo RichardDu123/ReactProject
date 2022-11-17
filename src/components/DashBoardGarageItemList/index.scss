@@ -1,0 +1,54 @@
+.dashboard_garage_itemList{
+    background-color:rgba(255, 255, 255, 0.354);
+    box-shadow: 25px 25px 50px rgb(0 0 0 / 7%), 15px 15px 50px rgb(255 255 255 / 27%);
+    border-radius: 12px;
+    //overflow-x: scroll;
+    width: 750px;
+    height: 150px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 25px;
+    position: relative;
+    &_indicator{
+        text-decoration: underline;
+        top:-15px;
+        &:hover{
+            color: #1976d2;
+            cursor: pointer;
+        }
+    }
+    &_items{
+        align-items: center;
+        display: flex;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        margin-top: px;
+        width: 710px;
+        height: 110px;
+        &_item{
+            width:100px;
+            height:100px;
+            margin: 5px;
+            position: relative;
+            >img{
+                width: 100px;
+                height: 100px
+            }
+            >button{
+                width: 100px;
+                height: 100px
+            }
+        }
+    }
+
+    
+
+}
+#dashboard_garage_itemList_item_button{
+    position: absolute;
+    right:-2px;
+    bottom: -2px;
+}

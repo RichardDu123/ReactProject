@@ -1,0 +1,37 @@
+.dashboard_upgrade{
+    border-radius: 15px;
+    box-shadow: 25px 25px 50px rgba(0, 0, 0, 0.3), -25px -25px 50px rgba(255, 255, 255, 0.3);
+    margin: auto;
+    margin-top: 100px;
+    width: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    @media only screen and (max-width: 600px) {
+        width: 90%;
+    }
+    &_header{
+        width: 50%;
+        margin: auto;
+        
+    }
+    &_middle{
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        color: rgb(0, 0, 0);
+    }
+    &_middle-dark{
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+    &_comment{
+        font-size: 12px;
+        color: grey;
+    }
+}
+#dashboard_upgrade_form{
+    width: 60%;
+    margin: auto;
+}

@@ -1,0 +1,9 @@
+.garagesContainer {
+  height: 650px;
+  overflow-y: auto;
+  margin-top: 30px;
+  &_list {
+    padding: 0 20px;
+    margin: auto;
+  }
+}
